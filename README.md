@@ -16,7 +16,7 @@ npm install -g pnpm@8
 
 1. Create an account in [Contentful](https://www.contentful.com/)
 2. Go to Setting > API Keys and create one
-3. Create an .env file in the root of your app `./app/<APP_PORTAL_NAME>/`
+3. Create an `.env` file in the root of your app `./app/<APP_PORTAL_NAME>/`
 4. Add these three variables from your Contentful API Keys:
 
 ```
