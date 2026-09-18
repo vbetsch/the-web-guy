@@ -12,18 +12,19 @@ Download the `v8` version by running this command :
 npm install -g pnpm@8
 ```
 
-
 ## How to use it?
 
-1. Create an account in [Contentful](https://www.contentful.com/) 
+1. Create an account in [Contentful](https://www.contentful.com/)
 2. Go to Setting > API Keys and create one
 3. Create an .env file in the root of your app `./app/<APP_PORTAL_NAME>/`
 4. Add these three variables from your Contentful APY Keys:
+
 ```
 VITE_CONTENTFUL_ENV=
 VITE_CONTENTFUL_SPACE_ID=
 VITE_CONTENTFUL_DELIVERY_TOKEN=
 ```
+
 ### Storybook
 
 - If you want to develop your components in isolation, take the Button.stories.ts file as an example.
@@ -38,11 +39,14 @@ VITE_CONTENTFUL_DELIVERY_TOKEN=
 - Go to Access Token and create a new one and select the type Publish
 - In your repository add a secret NPM_TOKEN and add the access token created
 - Before you add changes to your main branch run the following command:
+
 ```
 npx changeset
 ```
+
 - Commit your changes and the release workflow detect when the main branch is being pushed
 - After that it will create a PR that you need to confirm if everything is alright
+
 ## How to use scripts?
 
 - `npm run build`: Runs the build script in every package or app that you have in your monorepo.
@@ -59,6 +63,7 @@ npx changeset
 - `tsconfig`: `tsconfig.json`s used throughout the monorepo
 
 ## Commands
+
 ### Install packages
 
 From root directory
