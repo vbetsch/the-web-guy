@@ -4,7 +4,14 @@ This is the official library and portal for my ultimate portfolio.
 
 ## What's inside?
 
-This turborepo uses [pnpm](https://pnpm.io) as a package manager. It includes the following packages/apps:
+This turborepo uses [pnpm](https://pnpm.io) as a package manager.
+
+Download the `v8` version by running this command :
+
+```bash
+npm install -g pnpm@8
+```
+
 
 ## How to use it?
 
